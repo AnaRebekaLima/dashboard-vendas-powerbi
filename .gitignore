@@ -1,0 +1,23 @@
+# Ignorar arquivos temporários do Windows
+Thumbs.db
+*.DS_Store
+
+# Ignorar cache do Power BI
+*.cache
+
+# Ignorar arquivos temporários de sistema
+*.tmp
+*.log
+
+# Ignorar IDEs / notebooks temporários
+.vscode/
+.idea/
+__pycache__/
+*.ipynb_checkpoints/
+
+# Ignorar arquivos Excel temporários
+~$*.xlsx
+
+# Garantir que só os dados e imagens que você quer subam
+dados/raw/
+imagens/raw/
