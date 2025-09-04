@@ -1,23 +1,27 @@
-# Ignorar arquivos temporários do Windows
+# Power BI
+
+*.pbix
+*.pbit
+
+# Windows
+
 Thumbs.db
-*.DS_Store
+desktop.ini
 
-# Ignorar cache do Power BI
-*.cache
+# Python
 
-# Ignorar arquivos temporários de sistema
-*.tmp
-*.log
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Ignorar IDEs / notebooks temporários
+# IDEs / Editores
+
 .vscode/
 .idea/
-__pycache__/
-*.ipynb_checkpoints/
+*.swp
+*.swo
 
-# Ignorar arquivos Excel temporários
-~$*.xlsx
+# Jupyter Notebooks
 
-# Garantir que só os dados e imagens que você quer subam
-dados/raw/
-imagens/raw/
+.ipynb_checkpoints/
