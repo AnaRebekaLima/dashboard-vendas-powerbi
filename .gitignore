@@ -1,26 +1,29 @@
 # Power BI
-
 *.pbit
+*.pbitool.json
+*.rdl.data
+*.tmp
 
-# Windows
+# Dados (NUNCA subir brutos/tratados)
+dados/raw/
+dados/processed/
 
-Thumbs.db
-desktop.ini
+# Amostras pequenas e sintéticas podem ficar em dados/samples/
 
 # Python
-
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.ipynb_checkpoints/
 
 # IDEs / Editores
-
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Jupyter Notebooks
-
-.ipynb_checkpoints/
+# Windows / Mac
+Thumbs.db
+desktop.ini
+.DS_Store
