@@ -1,0 +1,63 @@
+{
+  "name": "Projeto – Tema Padronizado",
+  "dataColors": [
+    "#1B3B5F",
+    "#144A92",
+    "#252423",
+    "#F8FAFF"
+  ],
+  "background": "#144A92",
+  "foreground": "#F8FAFF",
+  "tableAccent": "#1B3B5F",
+  "visualStyles": {
+    "*": {
+      "title": [
+        {
+          "fontFamily": "Segoe UI",
+          "fontSize": 10,
+          "color": "#F8FAFF"
+        }
+      ],
+      "header": [
+        {
+          "fontFamily": "Segoe UI Bold",
+          "fontSize": 17,
+          "color": "#F8FAFF"
+        }
+      ],
+      "subTitle": [
+        {
+          "fontFamily": "Segoe UI Bold",
+          "fontSize": 12,
+          "color": "#F8FAFF"
+        }
+      ],
+      "label": [
+        {
+          "fontFamily": "Segoe UI Bold",
+          "fontSize": 9,
+          "color": "#F8FAFF"
+        }
+      ],
+      "background": [
+        {
+          "color": "#144A92"
+        }
+      ],
+      "border": [
+        {
+          "color": "#1B3B5F",
+          "radius": 15,
+          "weight": 1
+        }
+      ],
+      "shadow": [
+        {
+          "color": "#252423",
+          "position": "BottomRight",
+          "blur": 5
+        }
+      ]
+    }
+  }
+}
