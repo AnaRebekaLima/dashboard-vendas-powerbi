@@ -1,19 +1,21 @@
-name: "Feature"
+name: "Recurso"
 description: "Nova funcionalidade ou melhoria"
+title: "feat: <resumo curto>"
+labels: ["feature"]
 body:
   - type: input
     id: objetivo
     attributes:
-      label: Objetivo
+      label: "Objetivo"
   - type: textarea
     id: escopo
     attributes:
-      label: Escopo
+      label: "Escopo"
   - type: textarea
     id: criterios
     attributes:
-      label: Critérios de aceite
+      label: "Critérios de aceite"
   - type: textarea
     id: notas
     attributes:
-      label: Notas adicionais
+      label: "Notas adicionais"

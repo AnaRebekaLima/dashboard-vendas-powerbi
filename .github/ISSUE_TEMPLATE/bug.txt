@@ -1,0 +1,29 @@
+name: "Bug"
+description: "Erro ou problema no dashboard"
+title: "bug: <resumo curto>"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: "Descrição"
+      description: "O que aconteceu?"
+  - type: textarea
+    id: passos
+    attributes:
+      label: "Passos para reproduzir"
+      placeholder: "1) Vá para...\n2) Clique em...\n3) Veja o erro..."
+  - type: input
+    id: esperado
+    attributes:
+      label: "Comportamento esperado"
+  - type: input
+    id: ambiente
+    attributes:
+      label: "Ambiente/versão"
+      placeholder: "PBIDesktop x.y; Windows 11; etc."
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: "Evidências"
+      description: "Links/prints e dados de exemplo"
